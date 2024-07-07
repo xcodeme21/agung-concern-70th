@@ -1,0 +1,467 @@
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-overlay {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  white-space: pre-line;
+  width: 100%;
+}
+.main-image-dashboard {
+  width: 400px;
+  margin-top: 50px;
+}
+
+.btn-menu-dashboard {
+  border-radius: 0;
+  border: 1px solid #dc9f47;
+  color: white;
+  background-color: #dc9f47;
+  font-size: 28px;
+  height: 4rem;
+  width: 350px;
+}
+
+.btn-menu-dashboard:hover {
+  background-color: #052365;
+  color: white;
+  border: 1px solid #052365;
+}
+.container-attendances {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.rowAttendances {
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.box-scroll {
+  max-height: 580px;
+  overflow-y: auto;
+  direction: ltr;
+  padding-right: 12px;
+  box-sizing: content-box;
+}
+
+.box-scroll::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.box-scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.box-scroll::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 6px;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+#attendancesDatatables.table-sm {
+  font-size: 0.875rem;
+  border-collapse: collapse;
+}
+
+#attendancesDatatables.table-sm th,
+#attendancesDatatables.table-sm td {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #dee2e6;
+}
+
+#attendancesDatatables.table-sm thead th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+#attendancesDatatables.table-sm tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  top: -15%;
+}
+
+.button-choice {
+  border-radius: 0;
+  border: 1px solid #000;
+  color: #000;
+  background-color: transparent;
+  font-size: 12px;
+  width: 60px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button-choice:hover {
+  background-color: #052365;
+  color: white;
+  border: 1px solid #b98730;
+}
+
+.button-choice:disabled {
+  cursor: not-allowed;
+  background-color: grey;
+  opacity: 0.5;
+}
+div.dt-container div.dt-paging {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -45px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+div.dt-container div.dt-paging ul.pagination {
+  font-size: 14px;
+}
+div.dt-container div.dt-search input {
+  margin-left: 0.5em;
+  display: inline-block;
+  width: auto;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin-right: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+div.dt-container div.dt-length select {
+  width: auto;
+  display: inline-block;
+  margin-left: 20px !important;
+  font-size: 14px;
+}
+div.dt-buttons {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.btn-group-vertical > .btn,
+.btn-group > .btn {
+  font-size: 14px;
+}
+
+.total-register {
+  color: white;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.total-register .card-body {
+  background-color: #052365;
+  font-size: 14px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-top: -37px;
+  margin-bottom: -20px;
+}
+
+.card-left {
+  margin-left: -1px;
+}
+
+.card-right {
+  margin-right: -1px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.total-title {
+  font-size: 16px;
+}
+
+.total-title span {
+  font-size: 12px;
+}
+
+.attendance-overlay {
+  position: absolute;
+  top: 20%;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  white-space: pre-line;
+  width: 100%;
+}
+
+.rowLabelReport {
+  margin-top: -35px;
+  margin-bottom: -20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-btnLabelReport {
+  border-radius: 0;
+  border: 1px solid #dc9f47;
+  color: white;
+  font-weight: bold;
+  background-color: #dc9f47;
+  font-size: 20px;
+  height: 2rem;
+  padding: 0;
+  width: 350px;
+  cursor: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-btnLabelReport:hover {
+  color: white;
+  cursor: auto;
+  justify-content: center;
+  align-items: center;
+}
+.btn-btnScan {
+  border-radius: 0;
+  border: 1px solid #dc9f47;
+  color: white;
+  font-weight: bold;
+  background-color: #dc9f47;
+  font-size: 20px;
+  height: 2.5rem;
+  padding: 0;
+  width: 200px;
+  cursor: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-btnScan:hover {
+  color: white;
+  cursor: auto;
+  justify-content: center;
+  align-items: center;
+}
+.camera-overlay {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  white-space: pre-line;
+  width: 100%;
+}
+
+.camera-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .camera {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top:-37px;
+    transform: scaleX(-1);
+  }
+
+  
+.title-detail {
+  font-family: "Montserrat";
+  font-size: 44px;
+  color: white;
+}
+
+.seating-label {
+  font-family: "Montserrat Light";
+  font-size: 18px;
+  color: white;
+}
+
+.seating-value {
+  font-family: "Montserrat";
+  font-size: 24px;
+  color: white;
+}
+
+.detail-overlay {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  white-space: pre-line;
+  width: 100%;
+}
+.button-back {
+  border-radius: 0;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+  height: 2.5em;
+  width: 150px;
+  margin-right: 50px;
+}
+
+.button-back:hover {
+  background-color: #052365;
+  border: 1px solid #b98730;
+}
+
+.box-attd-back {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  right: 0px;
+}
+
+@media (max-width: 768px) {
+  .attendance-overlay {
+    top: 15%;
+    padding: 0px;
+  }
+  #attendancesDatatables.table-sm {
+    font-size: 0.75rem;
+  }
+
+  #attendancesDatatables.table-sm th,
+  #attendancesDatatables.table-sm td {
+    padding: 0.2rem 0.4rem;
+    height: 25px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-menu-dashboard {
+    font-size: 22px;
+    height: 3rem;
+    width: 250px;
+  }
+
+  .headeradmin-overlay {
+    display: none;
+  }
+  .btn-btnLabelReport {
+    width: 250px;
+    font-size: 12px;
+    margin-top: -20px;
+  }
+
+  .table {
+    width: 100%;
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
+
+  .total-title {
+    font-size: 9px;
+  }
+
+  .total-title span {
+    font-size: 7px;
+  }
+
+  .person {
+    font-size: 8px;
+  }
+
+  .total-register .card-body {
+    height: 50px;
+  }
+  div.dt-buttons {
+    margin-left: 0px;
+    width: 80%;
+  }
+
+  .btn-group-vertical > .btn,
+  .btn-group > .btn {
+    font-size: 8px;
+  }
+
+  div.dt-container div.dt-length select {
+    font-size: 10px;
+  }
+  div.dt-container div.dt-paging ul.pagination {
+    font-size: 8px;
+  }
+
+  div.dt-container div.dt-paging {
+    margin-right: 0;
+  }
+  .rowAttendances {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #attendancesDatatables.table-sm th,
+  #attendancesDatatables.table-sm td {
+    padding: 0.2rem 0.4rem;
+    height: 25px;
+    font-size: 6px;
+  }
+
+  #attendancesDatatables.table-sm th,
+  #attendancesDatatables.table-sm td {
+    padding: 2px;
+  }
+  div.dt-container div.dt-length select {
+    font-size: 10px;
+    left: 0;
+    position: absolute;
+    margin-left: 40px !important;
+  }
+
+  div.dt-container div.dt-search input {
+    width: 120px;
+    position: absolute;
+    margin-right: 40px !important;
+  }
+  .title-detail {
+    font-size: 38px;
+  }
+
+  .seating-label {
+    font-size: 18px;
+  }
+
+  .seating-value {
+    font-size: 24px;
+  }
+  .camera-overlay {
+    top: 50%;
+  }
+  .button-back {
+    display: none;
+  }
+  .detail-overlay {
+    top: 50%;
+  }
+  .dashboard-overlay {
+    top: 50%;
+  }
+}

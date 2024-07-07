@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Light";
+  src: url("/fonts/Montserrat-ExtraLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arial Bold";
+  src: url("/fonts/Arial Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avanta Demi";
+  src: url("/fonts/ITCAvantGardeStd-Demi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avanta Md";
+  src: url("/fonts/ITCAvantGardeStd-Md.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Campagne";
+  src: url("/fonts/Champagne & Limousines Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ITC Std";
+  src: url("/fonts/ITCKabelStd-Book.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

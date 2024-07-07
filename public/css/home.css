@@ -1,0 +1,235 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.home-text-1 {
+  font-family: "ITC Std", sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.home-text-2 {
+  font-family: "Campagne", sans-serif;
+  font-size: 72px;
+  letter-spacing: 8px;
+  font-weight: bold;
+  line-height: 1;
+  background: linear-gradient(to right, #f0f0f0 0%, #a3a2a2 10%, white 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.home-text-3 {
+  font-family: "ITC Std", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 2%;
+}
+
+.home-text-4 {
+  font-family: "ITC Std", sans-serif;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.home-text-5 {
+  font-family: "Campagne", sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+.bg-register-desktop-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-location-desktop-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-home-desktop {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  margin-top: -75px;
+  display: block;
+}
+
+.bg-home-mobile {
+  display: none;
+}
+.bg-location-desktop-image,
+.bg-location-mobile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-overlay,
+.location-overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  width: 90%;
+}
+
+.dresscode {
+  /* position: absolute;
+  bottom: 2%; */
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Campagne", sans-serif;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.anniversary {
+  width: 250px;
+}
+
+.location {
+  width: 500px;
+}
+
+.location_sub_title {
+  font-family: "ITC Std", sans-serif;
+  font-weight: bold;
+}
+
+.location_address {
+  font-family: "ITC Std", sans-serif;
+  color: white;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.rowLocation {
+  padding: 100px;
+}
+
+.col-md-6.d-flex.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  align-self: flex-start;
+  padding-top: 20px;
+}
+
+.bg-location-desktop-image {
+  display: block;
+}
+
+.bg-location-mobile-image {
+  display: none;
+}
+@media (max-width: 576px) {
+  .bg-home-desktop {
+    display: none;
+  }
+
+  .bg-home-mobile {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    display: block;
+  }
+
+  .home-overlay {
+    top: 50%;
+  }
+
+  .home-text-1 {
+    font-size: 18px;
+  }
+
+  .home-text-2 {
+    font-size: 3rem;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .home-text-3 {
+    font-size: 22px;
+  }
+
+  .home-text-4 {
+    font-size: 14px;
+  }
+
+  .home-text-5 {
+    font-size: 1rem;
+  }
+
+  .dresscode {
+    /* position: absolute;
+    bottom: 2.2%; */
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: "Campagne", sans-serif;
+    font-size: 1rem;
+    z-index: 2;
+    margin-bottom: 0px;
+  }
+
+  .location-overlay {
+    top: 50%;
+  }
+
+  .rowLocation {
+    padding: 0;
+  }
+
+  .anniversary {
+    width: 150px;
+  }
+
+  .location_sub_title {
+    font-size: 18px;
+  }
+
+  .location_address {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .location {
+    align-self: flex-start;
+    padding: 0;
+    width: 250px;
+  }
+
+  .bg-location-desktop-image {
+    display: none;
+  }
+
+  .bg-location-mobile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}

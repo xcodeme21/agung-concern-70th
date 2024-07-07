@@ -1,0 +1,246 @@
+/* CSS FOR REGISTER DESKTOP  */
+
+.bg-register-desktop-container {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-register-desktop-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.register-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  white-space: pre-line;
+  width: 100%;
+}
+
+.register-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 46px;
+  color: white;
+  margin-bottom: -30px;
+  letter-spacing: 3px;
+}
+
+.form-check {
+  display: flex;
+  align-items: baseline;
+  margin-top: -30px;
+}
+
+.form-check-input {
+  margin-right: 10px;
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+
+.white-label {
+  color: white;
+}
+
+/* Ensure the select2 container and selection are styled */
+.input-group .select2-container--bootstrap-5 .select2-selection {
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  height: 4em !important;
+  border-radius: 0 !important;
+  width: 100% !important;
+  border: 1px solid white !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Style the rendered placeholder */
+.input-group .select2-container--bootstrap-5 .select2-selection__rendered {
+  color: white !important;
+  display: flex !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  line-height: 4em !important;
+  /* Vertically centers the text */
+}
+/* Ensure the placeholder text inherits the correct color */
+.input-group .select2-container--bootstrap-5 .select2-selection__placeholder {
+  color: white !important;
+  display: flex !important;
+  align-items: center !important;
+  line-height: 4em !important;
+  /* Vertically centers the text */
+}
+.custom-input {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 4em;
+  border-radius: 0;
+  width: 100%;
+  border: 1px solid white;
+}
+
+.custom-input:focus {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.custom-input::placeholder {
+  color: white;
+}
+
+.custom-radio {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.custom-radio input[type="radio"] {
+  margin-right: 0.5rem;
+}
+.input-group {
+  margin-bottom: -55px;
+}
+.input-group-text {
+  background-color: transparent !important;
+  border: none;
+}
+
+.bi-chevron-down {
+  font-size: 1rem;
+}
+.box-scroll-register {
+  max-height: 600px;
+  overflow-y: auto;
+  direction: ltr;
+  padding-right: 12px;
+  box-sizing: content-box;
+}
+
+/* Gaya untuk scrollbar */
+.box-scroll-register::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.box-scroll-register::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.box-scroll-register::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 6px;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.button-register {
+  border-radius: 0;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+  height: 2.5em;
+  width: 150px;
+}
+.button-register:hover {
+  background-color: #052365;
+  border: 1px solid #b98730;
+}
+
+.button-register:disabled {
+  background-color: #052365;
+  border: 1px solid #b98730;
+  font-size: 16px;
+  opacity: 50%;
+}
+.success-login-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  width: 90%;
+}
+.success-register-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  width: 90%;
+}
+
+.success-register-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.success-register-msg {
+  font-family: "Montserrat Light", sans-serif;
+  font-size: 34px;
+  color: white;
+  font-weight: 800;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.success-register-email {
+  font-family: "Montserrat Light", sans-serif;
+  font-size: 22px;
+  color: white;
+}
+@media (max-width: 576px) {
+  .register-overlay {
+    top: 48%;
+  }
+
+  .login-title {
+    font-size: 24px !important;
+  }
+
+  .success-register-overlay {
+    top: 45%;
+    white-space: normal;
+  }
+
+  .success-register-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    color: white;
+    white-space: normal;
+  }
+
+  .success-register-msg {
+    font-family: "Montserrat Light", sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .success-register-email {
+    font-family: "Montserrat Light", sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 20px;
+  }
+}

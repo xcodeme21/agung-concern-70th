@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Light";
+  src: url("/fonts/Montserrat-ExtraLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Arial Bold";
+  src: url("/fonts/Arial Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avanta Demi";
+  src: url("/fonts/ITCAvantGardeStd-Demi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avanta Md";
+  src: url("/fonts/ITCAvantGardeStd-Md.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Campagne";
+  src: url("/fonts/Champagne & Limousines Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ITC Std";
+  src: url("/fonts/ITCKabelStd-Book.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  scrollbar-color: white rgba(255, 255, 255, 0.1);
+  scrollbar-width: thin;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  background-color: #f9f9f9;
+}
+label {
+  color: #000;
+}
+
+p {
+  color: #000;
+}
+
+/* Styling placeholder text */
+input::placeholder {
+  color: #999;
+  /* Placeholder text color */
+}
+
+/* Styling input value */
+input {
+  color: #000;
+  /* Input text color */
+  font-size: 16px;
+  /* Example font size */
+  border: 1px solid #ccc;
+  /* Example border */
+  padding: 8px;
+  /* Example padding */
+}
+
+/* Firefox specific styling for placeholder */
+input:-moz-placeholder {
+  color: #999;
+}
+
+/* WebKit (Safari, Chrome) specific styling for placeholder */
+input::-webkit-input-placeholder {
+  color: #999;
+}
+
+/* Edge specific styling for placeholder */
+input:-ms-input-placeholder {
+  color: #999;
+}

@@ -1,0 +1,24 @@
+.about-image {
+    width: 400px;
+    margin-bottom: 4rem;
+}
+
+.text-about {
+    font-family: 'Montserrat Light';
+    color: white;
+    font-size: 26px;
+    line-height: 1.5;
+    width: 45%;
+}
+
+@media (max-width: 576px) {
+    .about-image {
+        width: 250px;
+    }
+
+    .text-about {
+        color: white;
+        font-size: 18px;
+        width: 90%;
+    }
+}

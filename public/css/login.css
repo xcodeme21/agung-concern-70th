@@ -1,0 +1,42 @@
+/* CSS FOR LOGIN DESKTOP  */
+
+.login-overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  white-space: pre-line;
+  width: 100%;
+}
+
+.login-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  color: white;
+  margin-bottom: -30px;
+  letter-spacing: 3px;
+}
+
+.button-login {
+  border-radius: 0;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+  height: 2.5em;
+  width: 150px;
+}
+
+.button-login:hover {
+  background-color: #052365;
+  border: 1px solid #b98730;
+}
+.button-login:disabled {
+  background-color: #052365;
+  border: 1px solid #b98730;
+  font-size: 16px;
+  opacity: 50%;
+}

@@ -1,0 +1,147 @@
+.adminlogin-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    white-space: pre-line;
+    width: 100%;
+}
+.adminlogin-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-adminlogin {
+    border-radius: 0;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    height: 2.5em;
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-adminlogin:hover {
+    background-color: #052365;
+    border: 1px solid #b98730;
+}
+
+.button-adminlogin:disabled {
+    background-color: #052365;
+    border: 1px solid #b98730;
+    font-size: 16px;
+    opacity: 50%;
+}
+
+.form-control.custom-input {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.form-label.white-label {
+    color: white;
+}
+
+.adminLoginForm {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: -100px;
+}
+.headeradmin-overlay {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    white-space: pre-line;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headeradmin-anniversary {
+    width: 140px;
+    margin-left: 20px;
+}
+
+.headeradmin-logo {
+    width: 150px;
+    height: 50px;
+    margin-top: -40px;
+        margin-right: 20px;
+}
+.rowLogin .col-md-12 {
+    margin-bottom: -50px;
+}
+.custom-input {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 4em;
+    border-radius: 0;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.custom-input:focus {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.custom-input::placeholder {
+    color: white;
+}
+.bg-cover-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width: 576px) {
+    .adminLoginForm {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .adminlogin-overlay {
+        top: 45%;
+    }
+
+    .adminlogin-title {
+        font-size: 32px;
+    }
+
+    .form-label.white-label {
+        font-size: 16px;
+    }
+
+    .form-control.custom-input {
+        margin-bottom: 0;
+        height: 3rem;
+    }
+}
